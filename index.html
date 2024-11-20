@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo">Flipkart</div>
+        <input type="text" class="search-bar" placeholder="Search for products">
+        <div class="side">
+          <a href="#">Cart</a>
+          <a href="#">Login</a>
+        </div>
+      </header>
+  <div class="container">
+    <div class="filters">
+      <h3>Filters</h3>
+      <label>Price Range</label>
+      <input type="range" id="priceRange" min="0" max="1000">
+      <span id="priceValue">0 - 1000</span>
+      <button>Apply Filters</button>
+    </div>
+    <div class="products" id="productsList">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
